@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Spice Garden | Premium Fine Dining & Indian Fusion</title>
+  <meta name="description" content="Indulge in a luxurious culinary journey at Royal Spice Garden. Experience modern Indian fusion, exquisite ambiance, and masterfully crafted dishes. Reserve your table today.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='50' fill='%230A0908'/><text x='50' y='65' font-family='Cormorant Garamond' font-size='55' font-weight='bold' fill='%23E5C453' text-anchor='middle'>R</text></svg>">
+</head>
+<body>
+
+  <!-- Custom Cursor Glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Header & Navigation -->
+  <header class="navbar-wrapper">
+    <nav class="navbar container">
+      <a href="#" class="logo">
+        <span class="gold-text-brand">Royal Spice</span>
+        <span class="sand-text-brand">Garden</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#chef">Our Story</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#reservation">Reservation</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#reservation" class="btn btn-gold btn-sm btn-shimmer">
+          <span>Book A Table</span>
+        </a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-accent"></div>
+    <div class="container hero-container">
+      <div class="hero-content fade-in">
+        <div class="gold-badge">
+          <i data-lucide="sparkles"></i>
+          <span>Michelin-Starred Culinary Craftsmanship</span>
+        </div>
+        <h1 class="hero-title">
+          A Symphony of <br>
+          <span class="gold-text-gradient">Heritage & Modern</span> <br>
+          Gastronomy
+        </h1>
+        <p class="hero-desc">
+          Step into a sanctuary where ancient spice routes converge with avant-garde culinary techniques. Every dish is a royal tapestry woven with flavor, art, and tradition.
+        </p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-gold-solid">
+            <span>Explore Menu</span>
+            <i data-lucide="arrow-right"></i>
+          </a>
+          <a href="#reservation" class="btn btn-outline">
+            <span>Book A Table</span>
+          </a>
+        </div>
+        
+        <!-- Trust indicators -->
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>4.9<span class="gold-text">*</span></h3>
+            <p>5,000+ Reviews</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <h3>12<span class="gold-text">+</span></h3>
+            <p>Signature Spices</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <h3>100<span class="gold-text">%</span></h3>
+            <p>Artisanal Ingredients</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap fade-in">
+        <div class="image-bg-glow"></div>
+        <div class="showcase-ring"></div>
+        <div class="hero-img-container">
+          <img src="assets/hero_dish.png" alt="Royal Spice Garden Signature Lamb Shank" class="hero-img-floating">
+        </div>
+        <div class="showcase-tag">
+          <div class="tag-icon"><i data-lucide="chef-hat"></i></div>
+          <div class="tag-text">
+            <h4>Chef's Masterpiece</h4>
+            <p>Saffron Infused Lamb Shank</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chef Section (Our Story) -->
+  <section class="chef-section section-padding" id="chef">
+    <div class="container chef-grid">
+      <div class="chef-image-wrap scroll-reveal">
+        <div class="chef-border-frame"></div>
+        <img src="assets/chef_portrait.png" alt="Executive Chef plating a gourmet dish" class="chef-image">
+        <div class="chef-experience-badge">
+          <h4>25+</h4>
+          <p>Years of Culinary Art</p>
+        </div>
+      </div>
+
+      <div class="chef-content scroll-reveal">
+        <span class="section-subtitle">The Visionary Chef</span>
+        <h2 class="section-title">Crafting Legacies, <span class="gold-text-gradient">One Plate at a Time</span></h2>
+        <p class="chef-text">
+          At Royal Spice Garden, cuisine is more than taste—it is a sensory journey. Led by Chef de Cuisine **Vikram Malhotra**, our kitchen merges the slow-cooked heritage of royal Indian courts with modern, vibrant global flavors.
+        </p>
+        <p class="chef-text">
+          "Spices are like musical notes; they must be structured in perfect harmony to create a masterpiece. We roast, grind, and infuse our secret spice blends daily to bring you an unparalleled dining experience."
+        </p>
+        
+        <div class="chef-quote-block">
+          <p>"Every dish we serve carries a piece of history, reimagined for the modern connoisseur."</p>
+          <div class="chef-signature">
+            <span class="chef-name">Chef Vikram Malhotra</span>
+            <span class="chef-title">Executive Chef & Founder</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Masterpieces -->
+  <section class="featured-section section-padding" id="featured">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Chef's Recommendations</span>
+        <h2 class="section-title">Signature Masterpieces</h2>
+        <p class="section-desc">A handpicked selection of our most celebrated creations, presenting an explosion of exquisite spices and textures.</p>
+      </div>
+
+      <div class="featured-grid scroll-reveal">
+        <!-- Featured Card 1 -->
+        <div class="featured-card">
+          <div class="featured-img-wrap">
+            <img src="assets/featured_dish_1.png" alt="Saffron Tandoori Salmon" class="featured-image">
+            <span class="dish-tag">Signature</span>
+          </div>
+          <div class="featured-info">
+            <div class="dish-meta">
+              <span class="dish-price">$38</span>
+              <div class="dish-rating"><i data-lucide="star"></i> 4.9</div>
+            </div>
+            <h3>Saffron Tandoori Salmon</h3>
+            <p>Glazed in high-grade Kashmiri saffron reduction, roasted in clay oven, and served over a bed of spiced organic quinoa.</p>
+            <div class="dish-pairings">
+              <span class="pairing-label">Sommelier Pairing:</span>
+              <span class="pairing-value">Chardonnay 2021</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Card 2 -->
+        <div class="featured-card popular">
+          <div class="popular-ribbon">Most Coveted</div>
+          <div class="featured-img-wrap">
+            <img src="assets/featured_dish_2.png" alt="Truffle Butter Chicken" class="featured-image">
+            <span class="dish-tag">Indulgence</span>
+          </div>
+          <div class="featured-info">
+            <div class="dish-meta">
+              <span class="dish-price">$34</span>
+              <div class="dish-rating"><i data-lucide="star"></i> 5.0</div>
+            </div>
+            <h3>Royal Truffle Butter Chicken</h3>
+            <p>Premium free-range chicken in rich, velvety tomato gravy, finished with black winter truffle shavings and edible 24k gold leaf.</p>
+            <div class="dish-pairings">
+              <span class="pairing-label">Sommelier Pairing:</span>
+              <span class="pairing-value">Pinot Noir 2020</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Featured Card 3 -->
+        <div class="featured-card">
+          <div class="featured-img-wrap">
+            <img src="assets/featured_dish_3.png" alt="Rose Cardamom Pistachio Dome" class="featured-image">
+            <span class="dish-tag">Dessert Art</span>
+          </div>
+          <div class="featured-info">
+            <div class="dish-meta">
+              <span class="dish-price">$18</span>
+              <div class="dish-rating"><i data-lucide="star"></i> 4.8</div>
+            </div>
+            <h3>Pistachio Cardamom Dome</h3>
+            <p>Layers of pistachio mousse, delicate rose gel insert, cardamom biscuit, and spun sugar glass in a cloud of aromatic smoke.</p>
+            <div class="dish-pairings">
+              <span class="pairing-label">Sommelier Pairing:</span>
+              <span class="pairing-value">Late Harvest Riesling</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Menu Categories -->
+  <section class="menu-section section-padding" id="menu">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Exquisite Taste</span>
+        <h2 class="section-title">Explore Our Menu</h2>
+        <p class="section-desc">Indulge in our carefully structured categories, meticulously crafted to satisfy your finest culinary cravings.</p>
+      </div>
+
+      <!-- Menu Navigation Tabs -->
+      <div class="menu-tabs scroll-reveal">
+        <button class="menu-tab-btn active" data-category="starters">
+          <i data-lucide="salad"></i>
+          <span>Appetizers & Starters</span>
+        </button>
+        <button class="menu-tab-btn" data-category="mains">
+          <i data-lucide="soup"></i>
+          <span>Main Entrées</span>
+        </button>
+        <button class="menu-tab-btn" data-category="desserts">
+          <i data-lucide="cake"></i>
+          <span>Decadent Desserts</span>
+        </button>
+        <button class="menu-tab-btn" data-category="cocktails">
+          <i data-lucide="wine"></i>
+          <span>Royal Elixirs</span>
+        </button>
+      </div>
+
+      <!-- Menu Items Container -->
+      <div class="menu-container scroll-reveal" id="menuContainer">
+        <!-- Starters (Active by default) -->
+        <div class="menu-category-panel active" id="starters">
+          <div class="menu-items-grid">
+            <!-- Item 1 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Charcoal Paneer Tikka</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$19</span>
+              </div>
+              <p class="menu-item-desc">Infused with active charcoal, premium paneer chunks roasted with hung yogurt and Royal spices.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-veg">Vegetarian</span>
+                <span class="badge badge-gf">Gluten Free</span>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Crispy Softshell Crab Bhaji</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$24</span>
+              </div>
+              <p class="menu-item-desc">Tempura-style softshell crab with samphire pakora, curried mango gel, and micro cilantro.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-spicy"><i data-lucide="flame"></i> Spicy</span>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Gunpowder Scallops</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$26</span>
+              </div>
+              <p class="menu-item-desc">Pan-seared Atlantic scallops dusted with southern Indian gunpowder spices, coconut puree, curry oil.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-gf">Gluten Free</span>
+              </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Spiced Duck Samosa Cones</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$22</span>
+              </div>
+              <p class="menu-item-desc">Hand-rolled savory pastry cones filled with slow-cooked pulled duck, wild berries, orange chutney.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-chef">Chef's Special</span>
+              </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Beetroot & Goat Cheese Tikki</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$18</span>
+              </div>
+              <p class="menu-item-desc">Pan-fried patties of organic beetroot and spiced local goat cheese, with a vibrant mint coulis.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-veg">Vegetarian</span>
+              </div>
+            </div>
+            <!-- Item 6 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Lamb Gilafi Seekh</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$23</span>
+              </div>
+              <p class="menu-item-desc">Minced milk-fed lamb infused with cheese, bell peppers, fresh herbs, skewered in tandoor.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-gf">Gluten Free</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mains (Hidden initially) -->
+        <div class="menu-category-panel" id="mains">
+          <div class="menu-items-grid">
+            <!-- Item 1 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Nalli Nihari (Slow Lamb Shank)</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$38</span>
+              </div>
+              <p class="menu-item-desc">Shank of lamb slow-cooked for 12 hours in a rich, cardamom-scented marrow gravy.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-chef">Chef's Special</span>
+                <span class="badge badge-gf">Gluten Free</span>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Tasting of Wild Mushroom Korma</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$29</span>
+              </div>
+              <p class="menu-item-desc">Foraged chanterelle, oyster, and morel mushrooms in a luxurious cashewnut and saffron gravy.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-veg">Vegetarian</span>
+                <span class="badge badge-gf">Gluten Free</span>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Kochi Black Pepper Lobster</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$46</span>
+              </div>
+              <p class="menu-item-desc">Fresh whole lobster tail tossed in crushed Tellicherry black peppercorns, curry leaves, coconut milk.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-spicy"><i data-lucide="flame"></i> Very Spicy</span>
+                <span class="badge badge-gf">Gluten Free</span>
+              </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Smoked Jackfruit Biryani</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$28</span>
+              </div>
+              <p class="menu-item-desc">Fragrant aged basmati rice cooked under "dum" pressure with hickory-smoked raw jackfruit and spices.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-veg">Vegetarian</span>
+              </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Coastal Sea Bass Curry</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$36</span>
+              </div>
+              <p class="menu-item-desc">Pan-roasted sea bass simmered in raw mango, tamarind, and coconut milk curry sauce.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-gf">Gluten Free</span>
+              </div>
+            </div>
+            <!-- Item 6 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Venison Raan Roast</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$42</span>
+              </div>
+              <p class="menu-item-desc">Tender venison leg roasted in aromatic spices, with caramelized onion mash and dark port reduction.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-chef">Limited Quantity</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desserts (Hidden initially) -->
+        <div class="menu-category-panel" id="desserts">
+          <div class="menu-items-grid">
+            <!-- Item 1 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Deconstructed Saffron Rasmalai</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$16</span>
+              </div>
+              <p class="menu-item-desc">Cardamom paneer sponge, saffron-infused milk foam, pistachio soil, and dried rose petals.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-veg">Vegetarian</span>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Gold Leaf Mango Kulfi</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$17</span>
+              </div>
+              <p class="menu-item-desc">Traditional frozen dessert made with Alphonso mangoes, organic milk solids, clad in edible 24k gold leaf.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-veg">Vegetarian</span>
+                <span class="badge badge-gf">Gluten Free</span>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Dark Chocolate Garam Masala Ganache</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$19</span>
+              </div>
+              <p class="menu-item-desc">Valrhona dark chocolate ganache spiced with hints of cardamom, cinnamon, and black pepper.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-chef">Chef's Special</span>
+              </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Smoked Fig & Cardamom Tart</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$15</span>
+              </div>
+              <p class="menu-item-desc">Flaky butter crust filled with smoked fig compote, flavored with toasted green cardamom pods.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-veg">Vegetarian</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cocktails (Hidden initially) -->
+        <div class="menu-category-panel" id="cocktails">
+          <div class="menu-items-grid">
+            <!-- Item 1 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">The Maharaja's Smoked Old Fashioned</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$22</span>
+              </div>
+              <p class="menu-item-desc">Single malt scotch whiskey, cardamom bitters, spiced honey syrup, smoked with cedar wood chips.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-chef">Award Winner</span>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Saffron Hibiscus Spritz</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$18</span>
+              </div>
+              <p class="menu-item-desc">Artisanal dry gin, organic hibiscus flower reduction, high-grade saffron threads, organic tonic water.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-veg">Organic</span>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Kashmiri Kahwa Negroni</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$20</span>
+              </div>
+              <p class="menu-item-desc">Campari infused with Kashmiri green tea (Kahwa), sweet vermouth, star anise finish.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-veg">Botanical</span>
+              </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h4 class="menu-item-title">Tamarind Chili Margarita</h4>
+                <span class="menu-item-line"></span>
+                <span class="menu-item-price">$19</span>
+              </div>
+              <p class="menu-item-desc">Premium silver tequila, sour tamarind nectar, organic agave, served with a spiced chili salt rim.</p>
+              <div class="menu-item-badges">
+                <span class="badge badge-spicy"><i data-lucide="flame"></i> Zesty</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section section-padding" id="gallery">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Visual Experience</span>
+        <h2 class="section-title">The Ambiance & Artistry</h2>
+        <p class="section-desc">Glimpse the golden ambiance and detailed culinary work that defines the dining atmosphere of Royal Spice Garden.</p>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid scroll-reveal">
+        <!-- Item 1: Interior -->
+        <div class="gallery-item large" data-index="1">
+          <img src="assets/interior_ambiance.png" alt="Luxurious dining hall interior" class="gallery-img">
+          <div class="gallery-overlay">
+            <i data-lucide="zoom-in"></i>
+            <span>Main Dining Hall</span>
+          </div>
+        </div>
+        <!-- Item 2: Hero Dish -->
+        <div class="gallery-item" data-index="2">
+          <img src="assets/hero_dish.png" alt="Plated signature lamb shank" class="gallery-img">
+          <div class="gallery-overlay">
+            <i data-lucide="zoom-in"></i>
+            <span>Signature Plating</span>
+          </div>
+        </div>
+        <!-- Item 3: Dish 1 -->
+        <div class="gallery-item" data-index="3">
+          <img src="assets/featured_dish_1.png" alt="Saffron Salmon closer view" class="gallery-img">
+          <div class="gallery-overlay">
+            <i data-lucide="zoom-in"></i>
+            <span>Tandoori Salmon</span>
+          </div>
+        </div>
+        <!-- Item 4: Chef -->
+        <div class="gallery-item" data-index="4">
+          <img src="assets/chef_portrait.png" alt="Chef Vikram Malhotra plating" class="gallery-img">
+          <div class="gallery-overlay">
+            <i data-lucide="zoom-in"></i>
+            <span>Chef's Kitchen Studio</span>
+          </div>
+        </div>
+        <!-- Item 5: Dish 2 -->
+        <div class="gallery-item" data-index="5">
+          <img src="assets/featured_dish_2.png" alt="Truffle Butter Chicken closeup" class="gallery-img">
+          <div class="gallery-overlay">
+            <i data-lucide="zoom-in"></i>
+            <span>Gold Leaf Butter Chicken</span>
+          </div>
+        </div>
+        <!-- Item 6: Dessert -->
+        <div class="gallery-item" data-index="6">
+          <img src="assets/featured_dish_3.png" alt="Cardamom Dome closer view" class="gallery-img">
+          <div class="gallery-overlay">
+            <i data-lucide="zoom-in"></i>
+            <span>Pistachio Dessert Dome</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox">&times;</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous Image">&#10094;</button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightboxImg">
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next Image">&#10095;</button>
+  </div>
+
+  <!-- Testimonials & Reviews Slider -->
+  <section class="reviews-section section-padding" id="reviews">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Patron Testimonials</span>
+        <h2 class="section-title">What the Connoisseurs Say</h2>
+        <p class="section-desc">Honored with outstanding words from our cherished patrons and acclaimed culinary critics.</p>
+      </div>
+
+      <div class="reviews-slider-wrapper scroll-reveal">
+        <div class="quote-mark">“</div>
+        
+        <div class="slider-track" id="reviewsSlider">
+          <!-- Slide 1 -->
+          <div class="review-slide active">
+            <p class="review-text">
+              "The Royal Truffle Butter Chicken is an absolute culinary masterclass. Vikram Malhotra has created a sanctuary of fine dining that retains the deep roots of Indian spices while elevating them with elite ingredients. Simply magical."
+            </p>
+            <div class="review-rating">
+              <i data-lucide="star"></i>
+              <i data-lucide="star"></i>
+              <i data-lucide="star"></i>
+              <i data-lucide="star"></i>
+              <i data-lucide="star"></i>
+            </div>
+            <div class="review-author">
+              <h4 class="author-name">Evelyn Sinclair</h4>
+              <p class="author-title">Food & Travel Columnist, Haute Living</p>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="review-slide">
+            <p class="review-text">
+              "From the moment you walk past the velvet drapes, the golden glow transports you. The hospitality is as regal as the name suggests. The Lamb Nihari melted in our mouths, and the Smoked Old Fashioned is the best cocktail in town."
+            </p>
+            <div class="review-rating">
+              <i data-lucide="star"></i>
+              <i data-lucide="star"></i>
+              <i data-lucide="star"></i>
+              <i data-lucide="star"></i>
+              <i data-lucide="star"></i>
+            </div>
+            <div class="review-author">
+              <h4 class="author-name">Kabir Dev</h4>
+              <p class="author-title">Gastronomy Critic, Elite Dining Magazine</p>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="review-slide">
+            <p class="review-text">
+              "An extraordinary experience for a special celebration. The reservation system was flawless, the menu caters beautifully to gluten-free dietary needs without sacrificing flavor, and the pistachio cardamom dome dessert is art on a plate."
+            </p>
+            <div class="review-rating">
+              <i data-lucide="star"></i>
+              <i data-lucide="star"></i>
+              <i data-lucide="star"></i>
+              <i data-lucide="star"></i>
+              <i data-lucide="star"></i>
+            </div>
+            <div class="review-author">
+              <h4 class="author-name">Sophia & Thomas Vance</h4>
+              <p class="author-title">Royal Spice Garden Regulars</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dots Navigation -->
+        <div class="slider-dots" id="sliderDots">
+          <span class="dot active" data-slide="0"></span>
+          <span class="dot" data-slide="1"></span>
+          <span class="dot" data-slide="2"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation Section -->
+  <section class="reservation-section section-padding" id="reservation">
+    <div class="container">
+      <div class="reservation-layout">
+        <!-- Text Content -->
+        <div class="reservation-info scroll-reveal">
+          <span class="section-subtitle">Secure Your Experience</span>
+          <h2 class="section-title">Online Reservation</h2>
+          <p class="reservation-desc">
+            Reserve your table at Royal Spice Garden to secure an extraordinary fine dining experience. We welcome bookings up to 30 days in advance.
+          </p>
+          
+          <div class="reservation-guidelines">
+            <h4>Important Dining Policies:</h4>
+            <ul>
+              <li><i data-lucide="clock"></i> Smart-casual dress code is kindly requested.</li>
+              <li><i data-lucide="users"></i> For private parties larger than 8, please contact our events team directly.</li>
+              <li><i data-lucide="calendar-check"></i> Tables are held for a maximum of 15 minutes past reservation time.</li>
+            </ul>
+          </div>
+
+          <div class="reservation-contact-small">
+            <p>Prefer to reserve over the phone?</p>
+            <a href="tel:+18005557692" class="phone-link"><i data-lucide="phone"></i> +1 (800) 555-ROYAL</a>
+          </div>
+        </div>
+
+        <!-- Form Card -->
+        <div class="reservation-form-card scroll-reveal">
+          <h3 class="form-title">Reserve A Table</h3>
+          <form id="reservationForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resName">Full Name</label>
+                <input type="text" id="resName" class="form-control" placeholder="E.g., Sarah Jenkins" required>
+                <div class="error-msg">Please enter your name</div>
+              </div>
+              <div class="form-group">
+                <label for="resEmail">Email Address</label>
+                <input type="email" id="resEmail" class="form-control" placeholder="E.g., sarah@example.com" required>
+                <div class="error-msg">Please enter a valid email</div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resDate">Reservation Date</label>
+                <input type="date" id="resDate" class="form-control" required>
+                <div class="error-msg">Select a future date</div>
+              </div>
+              <div class="form-group">
+                <label for="resTime">Select Time Slot</label>
+                <select id="resTime" class="form-control" required>
+                  <option value="" disabled selected>Select Time</option>
+                  <option value="17:00">5:00 PM</option>
+                  <option value="17:30">5:30 PM</option>
+                  <option value="18:00">6:00 PM</option>
+                  <option value="18:30">6:30 PM</option>
+                  <option value="19:00">7:00 PM</option>
+                  <option value="19:30">7:30 PM</option>
+                  <option value="20:00">8:00 PM</option>
+                  <option value="20:30">8:30 PM</option>
+                  <option value="21:00">9:00 PM</option>
+                  <option value="21:30">9:30 PM</option>
+                </select>
+                <div class="error-msg">Please select a time slot</div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="resGuests">Number of Guests</label>
+                <select id="resGuests" class="form-control" required>
+                  <option value="" disabled selected>Number of Guests</option>
+                  <option value="1">1 Guest</option>
+                  <option value="2">2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="5">5 Guests</option>
+                  <option value="6">6 Guests</option>
+                  <option value="7">7 Guests</option>
+                  <option value="8">8 Guests (Max Online)</option>
+                </select>
+                <div class="error-msg">Please specify the guest count</div>
+              </div>
+              <div class="form-group">
+                <label for="resArea">Seating Preference</label>
+                <select id="resArea" class="form-control">
+                  <option value="any" selected>No Preference</option>
+                  <option value="main">Main Dining Room (Velvet Ambiance)</option>
+                  <option value="garden">Spice Garden Lounge (Outdoor)</option>
+                  <option value="private">Maharaja Private Cellar</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="resNotes">Special Requests (Allergies, Celebrations)</label>
+              <textarea id="resNotes" class="form-control" placeholder="E.g., Celebrating an anniversary / Gluten-free requirements..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-gold-solid form-submit-btn" id="submitResBtn">
+              <span>Confirm Reservation</span>
+              <i data-lucide="calendar"></i>
+            </button>
+          </form>
+
+          <!-- Success overlay -->
+          <div class="form-success-card" id="formSuccessCard">
+            <div class="success-icon">
+              <i data-lucide="check-circle"></i>
+            </div>
+            <h3>Reservation Requested!</h3>
+            <p class="success-message">
+              Thank you, <strong id="successName">Sarah</strong>. We have sent a confirmation request email to <span id="successEmail">sarah@example.com</span> for <strong id="successDate">June 20, 2026</strong> at <strong id="successTime">7:00 PM</strong>.
+            </p>
+            <p class="success-submessage">We look forward to welcoming you to the Royal Spice Garden.</p>
+            <button class="btn btn-gold btn-sm" id="resetFormBtn">Book Another Table</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location Map & Contact Details -->
+  <section class="contact-section section-padding" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <!-- Info Column -->
+        <div class="contact-info-wrap scroll-reveal">
+          <span class="section-subtitle">Reach Us</span>
+          <h2 class="section-title">Hours & Location</h2>
+          <p class="contact-desc-top">We are situated in the heart of the luxury dining district, featuring secure private valet parking for all patrons.</p>
+          
+          <div class="contact-card-list">
+            <!-- Item 1 -->
+            <div class="contact-card-item">
+              <div class="card-icon"><i data-lucide="map-pin"></i></div>
+              <div class="card-text">
+                <h4>Address</h4>
+                <p>124 Royal Saffron Boulevard, Suite 500, San Francisco, CA 94107</p>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="contact-card-item">
+              <div class="card-icon"><i data-lucide="clock"></i></div>
+              <div class="card-text">
+                <h4>Hours of Operation</h4>
+                <p><strong>Monday – Thursday:</strong> 5:00 PM – 10:30 PM</p>
+                <p><strong>Friday – Saturday:</strong> 4:30 PM – 11:30 PM</p>
+                <p><strong>Sunday Brunch:</strong> 11:30 AM – 3:00 PM</p>
+                <p><strong>Sunday Dinner:</strong> 5:00 PM – 10:00 PM</p>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="contact-card-item">
+              <div class="card-icon"><i data-lucide="mail"></i></div>
+              <div class="card-text">
+                <h4>Inquiries</h4>
+                <p>General: info@royalspicegarden.com</p>
+                <p>Private Events: events@royalspicegarden.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map Embed Column -->
+        <div class="contact-map-wrap scroll-reveal">
+          <div class="map-container">
+            <!-- Custom Styled Map Card rather than generic iframe, delivering a clean premium aesthetic -->
+            <div class="map-aesthetic-card">
+              <div class="map-glow"></div>
+              <div class="map-header">
+                <i data-lucide="navigation"></i>
+                <div>
+                  <h4>Royal Spice Garden Map</h4>
+                  <p>124 Royal Saffron Blvd, San Francisco</p>
+                </div>
+              </div>
+              
+              <!-- Custom Interactive-looking Vector Map / Background -->
+              <div class="vector-map-bg">
+                <svg viewBox="0 0 400 300" class="map-streets" xmlns="http://www.w3.org/2000/svg">
+                  <!-- Street Grids -->
+                  <path d="M 0 50 L 400 50 M 0 150 L 400 150 M 0 250 L 400 250" stroke="rgba(229, 196, 83, 0.05)" stroke-width="6"/>
+                  <path d="M 80 0 L 80 300 M 200 0 L 200 300 M 320 0 L 320 300" stroke="rgba(229, 196, 83, 0.05)" stroke-width="6"/>
+                  <path d="M 0 100 L 400 200" stroke="rgba(229, 196, 83, 0.03)" stroke-width="12"/>
+                  
+                  <!-- River or Park Outline -->
+                  <rect x="250" y="10" width="120" height="90" rx="10" fill="rgba(229, 196, 83, 0.02)"/>
+                  <text x="310" y="55" fill="rgba(163, 159, 153, 0.3)" font-size="10" font-family="Plus Jakarta Sans" text-anchor="middle">Saffron Park</text>
+
+                  <!-- Marker Pin Pulse -->
+                  <circle cx="200" cy="150" r="25" fill="none" stroke="#E5C453" stroke-width="1" opacity="0.6" class="pulse-ring">
+                    <animate attributeName="r" values="10;30;10" dur="3s" repeatCount="indefinite"/>
+                    <animate attributeName="opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite"/>
+                  </circle>
+                  <circle cx="200" cy="150" r="5" fill="#E5C453"/>
+                </svg>
+
+                <div class="map-popup">
+                  <span class="popup-title">Royal Spice Garden</span>
+                  <span class="popup-desc">Valet service available at entrance</span>
+                  <a href="https://maps.google.com" target="_blank" class="btn btn-gold btn-xs">
+                    <span>Directions</span>
+                    <i data-lucide="external-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-section">
+    <div class="container footer-grid">
+      <!-- Brand column -->
+      <div class="footer-col brand-col">
+        <a href="#" class="logo footer-logo">
+          <span class="gold-text-brand">Royal Spice</span>
+          <span class="sand-text-brand">Garden</span>
+        </a>
+        <p class="footer-about">
+          A gourmet sanctuary combining deep-rooted Indian culinary traditions with contemporary global flavor profiles.
+        </p>
+        <div class="footer-socials">
+          <a href="#" class="social-link" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+          <a href="#" class="social-link" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+          <a href="#" class="social-link" aria-label="Yelp"><i data-lucide="star-half"></i></a>
+          <a href="#" class="social-link" aria-label="TripAdvisor"><i data-lucide="globe"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#chef">Our Story</a></li>
+          <li><a href="#menu">Exquisite Menu</a></li>
+          <li><a href="#featured">Featured Dishes</a></li>
+          <li><a href="#gallery">Art Gallery</a></li>
+        </ul>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="footer-col">
+        <h4>Reservations</h4>
+        <ul>
+          <li><a href="#reservation">Book a Table</a></li>
+          <li><a href="#contact">Private Dining Events</a></li>
+          <li><a href="#contact">Catering Services</a></li>
+          <li><a href="#">Cancellation Policies</a></li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer-col newsletter-col">
+        <h4>Royal Newsletter</h4>
+        <p>Subscribe to receive exclusive invitations to tasting menus, seasonal menu launches, and culinary events.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="Your Email Address" required class="newsletter-input">
+          <button type="submit" class="btn btn-gold-solid newsletter-btn" aria-label="Subscribe">
+            <i data-lucide="send"></i>
+          </button>
+        </form>
+        <div id="newsletterStatus" class="newsletter-status"></div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>&copy; 2026 Royal Spice Garden. All rights reserved. Created for fine dining lovers.</p>
+        <div class="footer-legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility Statement</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lucide Icons Library -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Main logic JS -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
