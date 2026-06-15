@@ -1863,6 +1863,38 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: var(--color-gold);
 }
 
+.concept-disclaimer {
+  color: var(--color-text-dark);
+  font-size: 0.72rem;
+  margin-top: 0.35rem;
+  letter-spacing: 0.02rem;
+}
+
+.footer-portfolio-links {
+  display: flex;
+  gap: 1.5rem;
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+
+.footer-portfolio-links a {
+  color: var(--color-gold);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: var(--transition-fast);
+}
+
+.footer-portfolio-links a:hover {
+  color: var(--color-text-light);
+  transform: translateY(-2px);
+}
+
+.footer-portfolio-links i {
+  width: 14px;
+  height: 14px;
+}
+
 /* Responsive Styles */
 @media (max-width: 1024px) {
   .hero-title {
